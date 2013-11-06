@@ -7,31 +7,23 @@
 
 %%%%%%%%%% Parte 1 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%% a) %%%%%%%%%%%%%%%%%%%%%%
-
-
 x=[0:0.01:4*pi];
 a = 7*(log(2*x-3)/log(5));
 
 b= sin(13*(log(x+2)/log(7)));
 
+plot(x,a,'b.');
 
-%plot(x,a,'b.');
-%grid on;
-%title('Gráfico 1')
-%xlabel('x ')
-%ylabel('a(x)= 7*(log base 5(2*x-3))')
+title('Gráfico ')
+xlabel('x')
+ylabel('cos(5x)')
 
-%plot(x,b,'rx');
-%grid on;
-%title('Gráfico 2')
-%xlabel('x')
-%ylabel('b(x)= sin(13*(log base 7(x+2)))')
+%%title('Grï¿½fico 2: sin(13*(log(x+2)/log(7)))');
+%%plot(x,b,'rx');
 
-%plot(x,a,'b.',x,b,'rx');
-%grid on;
-%title('Gráfico 3: Funciones a(x) y b(x)')
-%label('x')
-%legend('a(x)= 7*(log base 5(2*x-3))','b(x)= sin(13*(log base 7(x+2)))')
+%%title('Grï¿½fico 3: Uniï¿½n de grï¿½ficos 1 y 2');
+%%plot(x,a,'b.',x,b,'rx');
+
 
 %%%%%%%%%%%%% b) %%%%%%%%%%%%%%%%%%%%%%
 % % Graficar en escala Normal y Logarï¿½tmica la siguiente funciï¿½n:
@@ -41,17 +33,7 @@ b= sin(13*(log(x+2)/log(7)));
 
 y=[-30:0.05:30];
 c= (2*y).*exp((5*y)-7);
-
-%plot(y,c,'c.');
-%grid on;
-%title('Gráfico 4: Escala Normal');
-%xlabel('x')
-%ylabel('c(x)= 2x * e^(5x-7)')
-
-semilogy(y,c,'r*');
-grid on
-title('Gráfico 5: Escala Logarítmica')
-xlabel('x')
-ylabel('c(x)= 2x * e^(5x-7)')
-axis([-30 30 -10^40 10^40])
-
+%title('GrÃ¡fico 4');
+%%plot(y,c,'c.');
+%title('GrÃ¡fico 5');
+%%semilogy(y,c,'r*');

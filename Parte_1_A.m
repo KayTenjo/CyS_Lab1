@@ -1,7 +1,7 @@
 %%a)  Graficar por separado y en conjunto, las siguientes funciones:
 %%a(x) =7?log5(2x-3)
 %%b(x) =sin(13*log7(x+2))
-%% La primera en azul con ‘.’, la segunda con 'x' y en rojo, tomando como puntos de 0
+%% La primera en azul con ï¿½.ï¿½, la segunda con 'x' y en rojo, tomando como puntos de 0
 %% a 4 * pi con un espacio entre ellos de 0.01.
 %  log b(x) coincides with ln(x)/ln(b)
 
@@ -12,23 +12,25 @@ a = 7*(log(2*x-3)/log(5));
 
 b= sin(13*(log(x+2)/log(7)));
 
-title('Gráfico 1: 7*(log(2*x-3)/log(5))');
+title('Grï¿½fico 1: 7*(log(2*x-3)/log(5))');
 plot(x,a,'b.');
 
-title('Gráfico 2: sin(13*(log(x+2)/log(7)))');
+title('Grï¿½fico 2: sin(13*(log(x+2)/log(7)))');
 plot(x,b,'rx');
 
-title('Gráfico 3: Unión de gráficos 1 y 2');
+title('Grï¿½fico 3: Uniï¿½n de grï¿½ficos 1 y 2');
 plot(x,a,'b.',x,b,'rx');
 
 
 %%%%%%%%%%%%% b) %%%%%%%%%%%%%%%%%%%%%%
-% % Graficar en escala Normal y Logarítmica la siguiente función:
+% % Graficar en escala Normal y Logarï¿½tmica la siguiente funciï¿½n:
 % % c(x)= 2x ? e^(5x-7)
-% % Colores y estilo a elección, cuadriculando la figura (grilla) y con puntos entre –30 y
+% % Colores y estilo a elecciï¿½n, cuadriculando la figura (grilla) y con puntos entre ï¿½30 y
 % % 30 (con espaciado de 0.05).
 
 x=[-30:0.05:30];
 c= 2*x*exp(5*x-7);
+title('GrÃ¡fico 4');
 plot(x,c,'c.');
+title('GrÃ¡fico 5');
 semilogy(x,c,'r*');

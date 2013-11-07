@@ -14,4 +14,5 @@ vector_ordenado = sort(vector,'descend'); % con sort ordeno el vector, especific
 resultado = sqrt (vector_ordenado(1)) + sqrt (vector_ordenado(2)) + sqrt(vector_ordenado(3)); % Luego realizo la suma de las raices de los eleemtnso mayores
 
 
-fprintf ('La suma de la raiz cuadrada de los 3 elementso mayores es : %d', resultado); % Se imprime el resultado 
+fprintf ('La suma de la raiz cuadrada de los 3 elementos mayores es : %d \n', resultado); % Se imprime el resultado 
+
